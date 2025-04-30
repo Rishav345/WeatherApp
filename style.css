@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background : #222;
+}
+
+.card{
+    background: linear-gradient(130deg , #00ccff,#c041e3) ;
+    color: #fff;
+    padding: 24px;
+    margin: 100px auto;
+    width: 90%;
+    max-width: 350px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card input{
+    margin-right: 8px ;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 30px;
+    font-size: 15px;
+    outline: none;
+    box-shadow: 5px 4px 7px #36066d80;
+}
+
+.search button{
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    box-shadow: 5px 4px 7px #36066d80;
+}
+.search button img{
+    width: 15px;
+}
+
+.imgs{
+    width: 45%;
+    margin: 20px 0px;
+}
+
+.temp{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: -30px;
+}
+.city{
+    font-size: 40px;
+    font-weight: 350;
+    margin-top: -20px;
+}
+.details{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.col img{
+    width: 20%;
+}
+.col>div{
+    margin-left: 10px;
+    font-size: 13px;
+    text-align:start;
+}
+.weather{
+    display: none;
+}
+
+.error{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    display: none;
+}
+
